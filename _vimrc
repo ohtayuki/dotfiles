@@ -66,3 +66,9 @@ nmap <Esc><Esc> :nohlsearch<CR><Esc>
 inoremap <silent> jj <ESC>
 " 日本語入力で”っj”と入力してもEnterキーで確定させればインサートモードを抜ける
 inoremap <silent> っj <ESC>
+
+" タブを半角スペース4つにする
+set tabstop=4
+set autoindent
+set expandtab
+set shiftwidth=4
